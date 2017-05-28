@@ -63,7 +63,7 @@ dev.off()
 with(steps.day, plot(date,total, type= "h", lwd = 4, col = 'red', xlab = 'Date', ylab = 'Total Steps', main = "Number of Steps Taken Each Day"))
 ```
 
-![](Peer_Assignament_1_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/Eliezer-Penaloza/RepData_PeerAssessment1/blob/master/Figures/figure1.png)<!-- -->
 
 ### Calculate and report the mean and median of the total number of steps taken per day
 
@@ -107,7 +107,7 @@ dev.off()
 with(steps.mean.day, plot(interval,total, type = 'l', col = "pink", xlab = 'Interval', ylab = 'Average', main = 'Average Number of Steps Taken Across all Days'))
 ```
 
-![](Peer_Assignament_1_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/Eliezer-Penaloza/RepData_PeerAssessment1/blob/master/Figures/figure2.png)<!-- -->
 
 ### Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps? Imputing missing values
 
@@ -182,7 +182,7 @@ dev.off()
 with(steps.day2, plot(date,total, type= "h", lwd = 4, col = 'green', xlab = 'Date', ylab = 'Total Steps', main = 'The Total Number of Steps Taken Each Day'))
 ```
 
-![](Peer_Assignament_1_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/Eliezer-Penaloza/RepData_PeerAssessment1/blob/master/Figures/figure3.png)<!-- -->
 
 
 ```r
@@ -246,4 +246,4 @@ dev.off()
 xyplot(average ~ interval | weekday, data = data3, type = 'l', layout = c(1,2), ylab = 'Average of Number of Steps', xlab = 'Interval')
 ```
 
-![](Peer_Assignament_1_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/Eliezer-Penaloza/RepData_PeerAssessment1/blob/master/Figures/figure4.png)<!-- -->
